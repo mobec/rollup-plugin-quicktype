@@ -1,0 +1,38 @@
+{
+  "name": "@mobecher/rollup-plugin-quicktype",
+  "version": "0.1.0",
+  "description": "Rollup plugin to run quicktype",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.0",
+    "rollup": "^2.40.0"
+  },
+  "scripts": {
+    "prepare": "rollup -c",
+    "start": "npm install && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobec/rollup-plugin-quicktype.git"
+  },
+  "keywords": [
+    "quicktype",
+    "generate",
+    "code",
+    "generation",
+    "javascript",
+    "json",
+    "schema",
+    "typescript"
+  ],
+  "author": "Moritz Becher",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/mobec/rollup-plugin-quicktype/issues"
+  },
+  "homepage": "https://github.com/mobec/rollup-plugin-quicktype#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
