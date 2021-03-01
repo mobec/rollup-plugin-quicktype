@@ -34,5 +34,9 @@
   "homepage": "https://github.com/mobec/rollup-plugin-quicktype#readme",
   "dependencies": {
     "quicktype": "^15.0.260"
-  }
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.es.js"
+  ]
 }
