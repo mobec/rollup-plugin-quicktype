@@ -1,10 +1,9 @@
 
 import { Plugin } from 'rollup';
 
-import { RendererOptions } from "quicktype/dist/quicktype-core";
 import { CLIOptions, main } from 'quicktype';
 
-class RollupQuicktypeOptions implements CLIOptions
+class RollupQuicktypeOptions implements Partial<CLIOptions>
 {
     lang: string;
     topLevel: string;
@@ -23,8 +22,6 @@ class RollupQuicktypeOptions implements CLIOptions
     allPropertiesOptional: boolean;
     noRender: boolean;
 
-    rendererOptions: RendererOptions;
-
     help: boolean;
     quiet: boolean;
     version: boolean;
@@ -35,7 +32,7 @@ class RollupQuicktypeOptions implements CLIOptions
     [option: string]: any;
 }
 
-export default function quicktype(options: Partial<RollupQuicktypeOptions>): Plugin {
+export default function quicktype(options: RollupQuicktypeOptions): Plugin {
     return {
         name: 'quicktypes',
         generateBundle() {
