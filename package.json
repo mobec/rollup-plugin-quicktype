@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/mobec/rollup-plugin-quicktype#readme",
   "dependencies": {
-    "path": "^0.12.7"
+    "quicktype": "^15.0.260"
   }
 }
