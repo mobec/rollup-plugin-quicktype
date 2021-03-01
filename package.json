@@ -27,7 +27,7 @@
     "typescript"
   ],
   "author": "Moritz Becher",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mobec/rollup-plugin-quicktype/issues"
   },
