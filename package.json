@@ -1,6 +1,6 @@
 {
   "name": "@mobecher/rollup-plugin-quicktype",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rollup plugin to run quicktype",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
