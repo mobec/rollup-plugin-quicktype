@@ -35,7 +35,7 @@ class RollupQuicktypeOptions implements CLIOptions
     [option: string]: any;
 }
 
-export default function quickTypeRollup(options: Partial<RollupQuicktypeOptions>): Plugin {
+export default function quicktype(options: Partial<RollupQuicktypeOptions>): Plugin {
     return {
         name: 'quicktypes',
         generateBundle() {
